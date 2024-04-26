@@ -1,0 +1,184 @@
+[2024-04-26 22:13:00] [class-ss-archive-creation-job.php:108] Not starting; we're already in the middle of a job
+[2024-04-26 22:13:13] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-26 22:13:13] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2024-04-26 22:13:13] [class-ss-url-fetcher.php:107] object(WP_Error)#1692 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-26 22:13:13] [class-ss-fetch-urls-task.php:58] URL: http://next-video-application.local/wp-json/oembed/1.0/embed
+[2024-04-26 22:13:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3287
+[2024-04-26 22:13:13] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-26 22:13:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662c26f97b0ac-IkptuL.tmp
+[2024-04-26 22:13:13] [class-ss-page-handler.php:38] URL Prepared:http://next-video-application.local/wp-json/oembed/1.0/embed?simply_static_page=8166
+[2024-04-26 22:13:13] [class-ss-url-fetcher.php:251] Fetching URL: http://next-video-application.local/wp-json/oembed/1.0/embed?simply_static_page=8166
+[2024-04-26 22:13:14] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-04-26 22:13:14] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-04-26 22:13:14] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-26 22:13:14] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3282 of 3287 pages/files
+[2024-04-26 22:13:14] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-26 22:13:14] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-26 22:13:14] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-26 22:13:14] [class-ss-fetch-urls-task.php:55] Total pages: 3289; Pages remaining: 2
+[2024-04-26 22:13:14] [class-ss-fetch-urls-task.php:58] URL: http://next-video-application.local/category/uncategorized/feed/
+[2024-04-26 22:13:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3289
+[2024-04-26 22:13:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-26 22:13:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662c26faa85a0-B9xOGt.tmp
+[2024-04-26 22:13:14] [class-ss-page-handler.php:38] URL Prepared:http://next-video-application.local/category/uncategorized/feed/?simply_static_page=8167
+[2024-04-26 22:13:14] [class-ss-url-fetcher.php:251] Fetching URL: http://next-video-application.local/category/uncategorized/feed/?simply_static_page=8167
+[2024-04-26 22:13:20] [class-ss-url-fetcher.php:251] Fetching URL: http://next-video-application.local
+[2024-04-26 22:13:44] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-26 22:13:44] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received
+[2024-04-26 22:13:44] [class-ss-url-fetcher.php:107] object(WP_Error)#1652 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-26 22:13:44] [class-ss-fetch-urls-task.php:58] URL: http://next-video-application.local/wp-json/wp/v2/categories/1
+[2024-04-26 22:13:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3289
+[2024-04-26 22:13:44] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-26 22:13:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662c2718b35a9-SLMPCb.tmp
+[2024-04-26 22:13:44] [class-ss-page-handler.php:38] URL Prepared:http://next-video-application.local/wp-json/wp/v2/categories/1?simply_static_page=8168
+[2024-04-26 22:13:44] [class-ss-url-fetcher.php:251] Fetching URL: http://next-video-application.local/wp-json/wp/v2/categories/1?simply_static_page=8168
+[2024-04-26 22:13:51] [class-ss-url-fetcher.php:103] Filesize: 671 bytes
+[2024-04-26 22:13:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-26 22:13:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-04-26 22:13:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662c2718b35a9-SLMPCb.tmp to C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889/wp-json/wp/v2/categories/1\index.html
+[2024-04-26 22:13:51] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-26 22:13:51] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-26 22:13:51] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-26 22:13:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3287 of 3289 pages/files
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-26 22:13:51] [class-ss-fetch-urls-task.php:55] Total pages: 3289; Pages remaining: 0
+[2024-04-26 22:13:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3289 of 3289 pages/files
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:171] We've found our next task: transfer_files_locally
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:77] Total pages: 56; Pages remaining: 50
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:51] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 6 of 56 files
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-26 22:13:51] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:77] Total pages: 56; Pages remaining: 6
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:51] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/Users/abc/Local Sites/next-video-application/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1714166889/wp-json/wp/v2/categories/1/index.html to C:/xampp/htdocs/NEXT/wp-json/wp/v2/categories/1/index.html
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\Users\abc\Local Sites\next-video-application\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1714166889\404\index.html
+[2024-04-26 22:13:52] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 50 of 56 files
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-26 22:13:52] [class-ss-transfer-files-locally-task.php:77] Total pages: 56; Pages remaining: 0
+[2024-04-26 22:13:52] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 56 of 56 files
+[2024-04-26 22:13:52] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://https://davrepo.github.io/NEXT/" target="_blank">https://https://davrepo.github.io/NEXT/</a>
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-26 22:13:52] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-26 22:13:52] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-26 22:13:52] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:45:43
